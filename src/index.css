@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0a0a12;
+  --bg-card: #141424;
+  --text: #e6e8f0;
+  --text-muted: #9aa3b8;
+  --accent-1: #6366f1;
+  --accent-2: #a855f7;
+  --accent-3: #22d3ee;
+  --gradient: linear-gradient(120deg, #6366f1, #a855f7, #22d3ee);
+}
+
+/* KUNCI UTAMA: Bikin seluruh halaman otomatis gelap & teks terang */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+}
+
+html,
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
